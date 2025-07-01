@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name = 'FooAesGcm'
     s.version = '0.1.2.1-github'
-    s.source = { :git => 'git@github.com:foodeveloper/foo-aesgcm.git', :tag => "#{s.version}" }
+    s.source = { :git => 'https://github.com/foodeveloper/foo-aesgcm.git', :tag => "#{s.version}" }
     s.authors = { 'Rida Hallal' => 'rida.hallal@foo-solutions.com' }
     s.ios.deployment_target = '15.0'
     s.summary = 'FOO AesGcm'
