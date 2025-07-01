@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name = 'FooAppleWallet'
     s.version = '1.1.26'
-    s.source = { :git => 'git@github.com:foodeveloper/foo-apple-wallet.git', :tag => "#{s.version}" }
+    s.source = { :git => 'https://github.com/foodeveloper/foo-apple-wallet.git', :tag => "#{s.version}" }
 
     s.authors = {  "Xing"   => "charbel.hassrouny@foo-solutions.com", "Sq" => "samer.marrash@foo-solutions.com", "Sami" => "sami.sharaf@foo-solutions.com"}
     s.ios.deployment_target = "15.0"
